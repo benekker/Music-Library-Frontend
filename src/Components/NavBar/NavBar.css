@@ -1,0 +1,25 @@
+.navbar {
+    background-image: linear-gradient(to top, #40e0f5,  #f5f7f7);
+    border-bottom: 1px solid black;
+    height: 100px;
+    position: sticky;
+  
+
+}
+
+
+
+
+.title {
+   margin-left: 10px;
+   padding: 5px;
+   
+}
+
+.LibraryIcon {
+    padding: 2px;
+    position: relative;
+    left: 200px;
+    bottom: 60px;    
+    
+}
