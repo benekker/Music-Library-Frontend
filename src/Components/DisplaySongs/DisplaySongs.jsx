@@ -17,15 +17,15 @@ const DisplaySongs = (props) => {
             {props.allSongs.filter((song) => {
                 if(searchTerm == ""){
                     return song
-                } else if (song.title.includes(searchTerm)){
+                } else if (song.title.toLowerCase().includes(searchTerm.toLowerCase())){
                     return song
-                } else if (song.artist.includes(searchTerm)){
+                } else if (song.artist.toLowerCase().includes(searchTerm.toLowerCase())){
                     return song
-                } else if (song.album.includes(searchTerm)){
+                } else if (song.album.toLowerCase().includes(searchTerm.toLowerCase())){
                     return song
                 } else if(song.release_date.includes(searchTerm)){
                     return song
-                } else if(song.genre.includes(searchTerm)){
+                } else if(song.genre.toLowerCase().includes(searchTerm.toLowerCase())){
                     return song
                 }
             }).map((song, index) => {
