@@ -41,6 +41,9 @@ const PostSong = (props) => {
                 <input className='input-container' type="text" value={newGenre} onChange={(event) => setGenre(event.target.value)} />
                 </label>
             </div>
+            <div className='submit-button'>
+                <button>Add Song</button>
+            </div>
         </form>
     )
 }
