@@ -2,6 +2,8 @@ import NavBar from "./Components/NavBar/NavBar";
 import React, { useState, useEffect } from 'react';
 import axios from "axios";
 import DisplaySongs from "./Components/DisplaySongs/DisplaySongs";
+import SearchBar from "./Components/SearchBar/SearchBar";
+import PostSong from "./Components/PostSong/PostSong";
 
 function App() {
   const [songs, setSongs] = useState([]);
@@ -23,6 +25,8 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      <SearchBar />
+      <PostSong />
       <DisplaySongs allSongs={songs} />
     </div>
   );
