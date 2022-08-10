@@ -1,5 +1,6 @@
 .display-music-wrap{
    
+   
     
 }
 
@@ -7,9 +8,9 @@
 .displaymusictable {
     padding: 10px;
     margin: 5px;
-    border-bottom: 1px solid black;
-    width: 50%;
+    width: 90%;
     height: 100px;
+    
     
 }
 
@@ -26,3 +27,20 @@
     font-size: 18px;
 }
 
+.displaymusictable th{
+    width: 160px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: black;
+    color: #06d1af;
+    border-radius: 30px;
+    font-size: 18px;
+    
+    
+}
+
+.displaymusictable td{
+    width: 160px;
+    text-align: center;
+   
+}

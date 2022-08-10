@@ -5,10 +5,14 @@
     
 }
 .submit-button button{
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 30px;
     height: 25px;
     width: 75px;
+    background-color: black;
+    color: #06d1af;
+    
+    
 }
 
 .add-song-container{
@@ -20,4 +24,6 @@
 .input-container{
     padding: 5px;
     margin: 5px;
+    border-radius: 30px;
+    border: 1px solid black;
 }

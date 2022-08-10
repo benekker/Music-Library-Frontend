@@ -5,10 +5,6 @@
     display: flex;
     justify-content: space-between;
     height: 120px;
-    
-    
-
-  
 
 }
 
@@ -17,25 +13,21 @@
    padding: 10px;
    width: 600px;
    display: flex;
-   justify-content: center;
+   justify-content: left;
    flex-direction: row-reverse;
    align-items: center;
-   
-
-   
-
-
+   font-size: 40px;
    
 }
 
 .headertext{
     margin: 5px;
     font-family: 'Cormorant SC', serif;
-    color: white;
-    text-shadow: -1px 2px 2px #000,
-    1px 2px 2px #000,
-    1px -1px 0 #000,
-    -1px -1px 0 #000;
+    color: black;
+    text-shadow: -1px 2px 2px white,
+    1px 1px 1px white,
+    1px -1px 0 white,
+    -1px -1px 0 white;
 
 }
 
@@ -44,6 +36,15 @@
     margin: 10PX;
     height: 80px;
     width: 80px;
-    
+      
+}
+.spotifylogo{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
     
 }

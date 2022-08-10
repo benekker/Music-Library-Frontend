@@ -1,6 +1,6 @@
 import Earbuds from "./Assets/earbuds.png"
 import "./NavBar.css"
-
+import spotifylogo from "./Assets/spotifylogo.png"
 
 const NavBar = (props) => {
     return(
@@ -11,7 +11,7 @@ const NavBar = (props) => {
                 </div>
             <img className="Logo" src={Earbuds} alt='Logo' />
             </h1>
-            
+            <img className="spotifylogo" src={spotifylogo} alt='spotifylogo' />
         </div>
     );
 }
