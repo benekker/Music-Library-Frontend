@@ -1,25 +1,49 @@
 .navbar {
-    background-image: linear-gradient(to top, #40e0f5,  #f5f7f7);
+    background-image: linear-gradient(to top, black, #06d1af );
     border-bottom: 1px solid black;
-    height: 100px;
     position: sticky;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    
+    
+
   
 
 }
 
-
-
-
 .title {
-   margin-left: 10px;
-   padding: 5px;
+   margin: 30px;
+   padding: 10px;
+   width: 600px;
+   display: flex;
+   justify-content: center;
+   flex-direction: row-reverse;
+   align-items: center;
+   
+
+   
+
+
    
 }
 
-.LibraryIcon {
-    padding: 2px;
-    position: relative;
-    left: 200px;
-    bottom: 60px;    
+.headertext{
+    margin: 5px;
+    font-family: 'Cormorant SC', serif;
+    color: white;
+    text-shadow: -1px 1px 2px #000,
+    1px 1px 2px #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+
+}
+
+.Logo {
+    padding: 10px;
+    margin: 10PX;
+    height: 80px;
+    width: 80px;
+    
     
 }

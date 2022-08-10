@@ -1,4 +1,4 @@
-import LibraryIcon from "./Assets/MusicLibraryicon.png"
+import Earbuds from "./Assets/earbuds.png"
 import "./NavBar.css"
 
 
@@ -6,9 +6,12 @@ const NavBar = (props) => {
     return(
         <div className="navbar">
             <h1 className="title">
-                MusicLibrary
+                <div className="headertext">
+                    MusicLibrary
+                </div>
+            <img className="Logo" src={Earbuds} alt='Logo' />
             </h1>
-            <img className="LibraryIcon" src={LibraryIcon} alt='Library Icon' />
+            
         </div>
     );
 }
