@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from "axios";
+import "./PostSong.css"
 
 const PostSong = (props) => {
     const [newTitle, setTitle] = useState("");
@@ -38,6 +39,7 @@ const PostSong = (props) => {
                     <input className='input-container' type="date" value={newReleaseDate} onChange={(event) => setReleaseDate(event.target.value)} />
                 </label>
                 <label className='add-song-label'>
+                    Genre
                 <input className='input-container' type="text" value={newGenre} onChange={(event) => setGenre(event.target.value)} />
                 </label>
             </div>

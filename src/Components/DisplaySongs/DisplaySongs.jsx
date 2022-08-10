@@ -1,10 +1,34 @@
+import { useState } from "react"
 import "./DisplaySongs.css"
 
 
 const DisplaySongs = (props) => {
+    const [searchTerm, setSearchTerm] = useState("");
     return(
-        <div>
-            {props.allSongs.map((song, index) => {
+        <div className="display-music-wrap">
+            <input
+            className="search-input"
+                type="text"
+                placeholder="Search..."
+                onChange={(event) => {
+                    setSearchTerm(event.target.value);
+                }}
+            />
+            {props.allSongs.filter((song) => {
+                if(searchTerm == ""){
+                    return song
+                } else if (song.title.includes(searchTerm)){
+                    return song
+                } else if (song.artist.includes(searchTerm)){
+                    return song
+                } else if (song.album.includes(searchTerm)){
+                    return song
+                } else if(song.release_date.includes(searchTerm)){
+                    return song
+                } else if(song.genre.includes(searchTerm)){
+                    return song
+                }
+            }).map((song, index) => {
                 return (
                     <table className="displaymusictable" key={index}>
                         <tr>

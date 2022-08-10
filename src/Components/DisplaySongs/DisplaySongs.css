@@ -1,4 +1,28 @@
-.displaymusictable {
-    
+.display-music-wrap{
+   
     
 }
+
+
+.displaymusictable {
+    padding: 10px;
+    margin: 5px;
+    border-bottom: 1px solid black;
+    width: 50%;
+    height: 100px;
+    
+}
+
+.search-input{
+    border: 1.5px solid black;
+    border-radius: 50px;
+    height: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
